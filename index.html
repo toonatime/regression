@@ -5,28 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regression</title>
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center items horizontally */
-            justify-content: center; /* Center items vertically */
-            height: 100vh; /* Make the container full height of the viewport */
-            margin: 0; /* Remove default margin */
-        }
-        /* Optional: Add styles for the text and image separately if needed */
-        p {
-            text-align: center; /* Center the text */
-        }
         img {
-            width: 10%; /* Adjust the width of the image */
+            width: 10%; /* Adjust the percentage to control the size */
             max-width: 300px; /* Optionally limit the maximum width */
+            display: block; /* Ensures that the image respects its container's width */
+            margin: auto; /* Centers the image horizontally */
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <p>I will sell you my soul If you trade it for a french bread roll</p>
-        <img src="image.jpg" alt="Description of the image">
-    </div>
+    <p>I will sell you my soul If you trade it for a french bread roll</p>
+    <img src="image.jpg" alt="Description of the image">
 </body>
 </html>
